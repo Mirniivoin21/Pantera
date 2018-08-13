@@ -10,10 +10,11 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="CanResizeWithGrip"
         TitleCharacterCasing="Normal"
+        MinHeight="450" MinWidth="350"
         GlowBrush="{DynamicResource AccentColorBrush}"
-        Title="Panther" Height="525" Width="825">
-    <Grid>
-        <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0 0 0 64">
+        Title="Panther" Height="450" Width="350">
+    <Grid MinHeight="450" MinWidth="350">
+        <StackPanel Orientation="Vertical" VerticalAlignment="Top" HorizontalAlignment="Center" Margin="0 32">
             <Image Source="../Images/panther.jpg" Width="48" Height="48" Margin="0 0 0 10"
                    VerticalAlignment="Center" HorizontalAlignment="Center"/>
             <TextBlock Style="{StaticResource MaterialDesignBody1TextBlock}"

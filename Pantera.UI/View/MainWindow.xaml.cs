@@ -1,4 +1,6 @@
-﻿namespace Pantera.UI.View
+﻿using System.Windows;
+
+namespace Pantera.UI.View
 {
     public partial class MainWindow
     {

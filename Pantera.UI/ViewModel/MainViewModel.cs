@@ -6,7 +6,7 @@ namespace Pantera.UI.ViewModel
     {
         public MainViewModel()
         {
-            
+
         }
     }
 }
